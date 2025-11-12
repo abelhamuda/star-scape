@@ -327,7 +327,7 @@ const SpaceInvaders = () => {
         {/* Header */}
         <div className="text-center mb-4 sm:mb-6">
           <h1 className="text-xl sm:text-2xl md:text-3xl text-purple-400 mb-2 animate-pulse">
-            SPACE INVADERS
+            STAR SCAPE
           </h1>
           <div className="flex justify-between text-xs sm:text-sm">
             <div>SCORE: <span className="text-green-400">{score.toString().padStart(5, '0')}</span></div>
@@ -440,7 +440,7 @@ const SpaceInvaders = () => {
           {gameState === 'menu' && (
             <div className="absolute inset-0 bg-black bg-opacity-90 flex items-center justify-center">
               <div className="text-center p-4">
-                <div className="text-purple-400 text-xl sm:text-2xl mb-4 sm:mb-6">SPACE INVADERS</div>
+                <div className="text-purple-400 text-xl sm:text-2xl mb-4 sm:mb-6">STAR SCAPE</div>
                 <div className="text-green-400 text-xs sm:text-sm mb-2">MOVE: ← → KEYS OR TOUCH</div>
                 <div className="text-green-400 text-xs sm:text-sm mb-4">SHOOT: SPACEBAR OR TAP FIRE</div>
                 <button
